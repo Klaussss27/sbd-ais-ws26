@@ -114,6 +114,6 @@ FROM (SELECT country, COUNT(*) AS cnt
 **1M:** 10983941260 pairs in **250.634 ms**, versus ~13.4 minutes predicted for the full self-join.
 
 ### Step 4. Discussion
-- **Rewrite first:** Aggregating by country avoids generating all matching pairs. An index or more hardware cannot remove that work.
-- **If actual pairs are needed:** Filter first, process in batches, and consider parallel/distributed execution. A bigger machine or cluster may help, but billions of output rows remain expensive to compute and transfer.
-- **OLTP limits:** Large analytical joins compete with transactions for CPU, memory and I/O. In cloud systems, use a separate analytical replica or data warehouse for heavy workloads.
+-  Aggregating by country avoids generating all matching pairs. An index or more hardware cannot remove that work.
+- If actual pairs are needed then we  would filter first, process in batches, and consider parallel/distributed execution. A bigger machine or cluster may help, but billions of output rows remain expensive to compute and transfer.
+- Large analytical joins compete with transactions for CPU, memory and I/O. In cloud system better use data warehouse for heavy workloads.
