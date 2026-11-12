@@ -1,0 +1,21 @@
+[baseline] polling table readings for id > 0 (Ctrl+C to stop)
+[baseline] read      688  backlog      20 rows  delay   0.4 s  missing     82  anomalies 0
+[baseline] read    1,578  backlog       0 rows  delay   0.2 s  missing    194  anomalies 0
+[baseline] read    2,457  backlog      25 rows  delay   0.2 s  missing    373  anomalies 0
+[baseline] read    3,290  backlog      14 rows  delay   0.2 s  missing    535  anomalies 0
+[baseline] read    4,132  backlog      27 rows  delay   0.4 s  missing    678  anomalies 0
+[baseline] read    4,973  backlog      16 rows  delay   0.2 s  missing    817  anomalies 0
+[baseline] read    5,842  backlog      20 rows  delay   0.2 s  missing    953  anomalies 0
+[baseline] read    6,750  backlog      37 rows  delay   0.3 s  missing  1,070  anomalies 0
+[baseline] read    7,591  backlog      34 rows  delay   0.3 s  missing  1,234  anomalies 0
+[baseline] read    8,410  backlog      12 rows  delay   0.2 s  missing  1,363  anomalies 1
+[baseline] read    9,270  backlog      30 rows  delay   0.2 s  missing  1,510  anomalies 46
+[baseline] read   10,120  backlog      24 rows  delay   0.3 s  missing  1,689  anomalies 87
+[baseline] read   10,950  backlog      45 rows  delay   0.3 s  missing  1,850  anomalies 127
+[baseline] read   11,765  backlog      20 rows  delay   0.3 s  missing  2,020  anomalies 166
+[baseline] read   12,596  backlog      20 rows  delay   0.2 s  missing  2,188  anomalies 208
+[baseline] read   13,493  backlog      20 rows  delay   0.3 s  missing  2,277  anomalies 253
+[baseline] read   14,371  backlog      50 rows  delay   0.3 s  missing  2,404  anomalies 297
+[baseline] read   15,240  backlog      24 rows  delay   0.3 s  missing  2,558  anomalies 342
+[baseline] read   15,405  backlog       0 rows  delay   0.0 s  missing  2,585  anomalies 350
+[baseline] stopped: read 15,405 readings, last id 18,000, 2,585 readings missing, 350 anomalies

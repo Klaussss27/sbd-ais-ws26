@@ -1,0 +1,20 @@
+run 1794415298: 20 machines x 10 Hz = 200 readings/s -> postgres (Ctrl+C to stop)
+  t=    5s      1,020 readings sent (204/s)
+  t=   10s      2,020 readings sent (202/s)
+  t=   15s      3,020 readings sent (201/s)
+  t=   20s      4,020 readings sent (201/s)
+  t=   25s      5,020 readings sent (201/s)
+  t=   30s      6,020 readings sent (201/s)
+  t=   35s      7,020 readings sent (201/s)
+  t=   40s  fault starts on M-006 (repaired in 45 s)
+  t=   40s      8,020 readings sent (200/s)  faulty: M-006
+  t=   45s      9,020 readings sent (200/s)  faulty: M-006
+  t=   50s     10,020 readings sent (200/s)  faulty: M-006
+  t=   55s     11,020 readings sent (200/s)  faulty: M-006
+  t=   60s     12,020 readings sent (200/s)  faulty: M-006
+  t=   65s     13,020 readings sent (200/s)  faulty: M-006
+  t=   70s     14,020 readings sent (200/s)  faulty: M-006
+  t=   75s     15,020 readings sent (200/s)  faulty: M-006
+  t=   80s     16,020 readings sent (200/s)  faulty: M-006
+  t=   85s     17,020 readings sent (200/s)  faulty: M-006
+run 1794415298: sent 18,000 readings in 91 s
